@@ -1,0 +1,63 @@
+body {
+	background-image: url("/images/bk6.jpg");
+	background-repeat: no-repeat;
+	color: white;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 40px;
+	padding-top: 100px;
+}
+input {
+	all: unset;
+	font: 16px;
+	color: white;
+	height: 100%;
+	width: 27%;
+	border-radius: 25px;
+	border:2px solid white;
+	background:rgba(1,1,1,0.5);
+	margin-left: 36%;
+	padding:10px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+i{
+	padding:10px;
+	color: white;
+	size: 50px; 
+}
+i:hover{
+	color: grey;
+}
+#query_results, h3{
+	text-align: center;
+}
+.artist_image{
+	height: 25%;
+	width: 25%;
+	margin-left: 38%;
+}
+button{
+	margin-left: 43%;
+	background-color: grey;
+}
+.event_div{
+	background-color: black;
+	padding: 10px;
+	margin: 5px;
+	width: 350px;
+}
+#event_details{
+	margin-left: 150px;
+}
+#event_details h4{
+	text-align: center;
+	position: relative;
+	margin-left: -150px;
+}
